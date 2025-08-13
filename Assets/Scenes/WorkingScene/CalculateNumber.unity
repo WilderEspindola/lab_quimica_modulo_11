@@ -14160,7 +14160,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1886366654}
-        m_TargetAssemblyTypeName: ParticleController, Assembly-CSharp
+        m_TargetAssemblyTypeName: ParticleDioxiodoCarbono, Assembly-CSharp
         m_MethodName: StartParticles
         m_Mode: 1
         m_Arguments:
@@ -14552,7 +14552,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 246145627}
-  - component: {fileID: 246145626}
+  - component: {fileID: 246145628}
   m_Layer: 0
   m_Name: ParticleController_oxigeno
   m_TagString: Untagged
@@ -14560,20 +14560,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &246145626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 246145625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f2488f5c8462194586bacbc30178463, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetParticleSystem: {fileID: 36417977}
-  reportButton: {fileID: 2144245144}
 --- !u!4 &246145627
 Transform:
   m_ObjectHideFlags: 0
@@ -14589,6 +14575,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 896614244}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &246145628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246145625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360230e0c0e722340b62d9180292d3c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetParticleSystem: {fileID: 36417977}
+  reportButton: {fileID: 2144245144}
 --- !u!1 &251817189
 GameObject:
   m_ObjectHideFlags: 0
@@ -27650,8 +27650,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1885768546}
-        m_TargetAssemblyTypeName: ParticleController, Assembly-CSharp
+      - m_Target: {fileID: 1885768548}
+        m_TargetAssemblyTypeName: ParticleHidrogeno, Assembly-CSharp
         m_MethodName: StopParticles
         m_Mode: 1
         m_Arguments:
@@ -34822,7 +34822,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1886366654}
-        m_TargetAssemblyTypeName: ParticleController, Assembly-CSharp
+        m_TargetAssemblyTypeName: ParticleDioxiodoCarbono, Assembly-CSharp
         m_MethodName: StopParticles
         m_Mode: 1
         m_Arguments:
@@ -48840,8 +48840,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1885768546}
-        m_TargetAssemblyTypeName: ParticleController, Assembly-CSharp
+      - m_Target: {fileID: 1885768548}
+        m_TargetAssemblyTypeName: ParticleHidrogeno, Assembly-CSharp
         m_MethodName: StartParticles
         m_Mode: 1
         m_Arguments:
@@ -59337,8 +59337,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 246145626}
-        m_TargetAssemblyTypeName: ParticleController, Assembly-CSharp
+      - m_Target: {fileID: 246145628}
+        m_TargetAssemblyTypeName: ParticleOxigeno, Assembly-CSharp
         m_MethodName: StartParticles
         m_Mode: 1
         m_Arguments:
@@ -64657,8 +64657,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 246145626}
-        m_TargetAssemblyTypeName: ParticleController, Assembly-CSharp
+      - m_Target: {fileID: 246145628}
+        m_TargetAssemblyTypeName: ParticleOxigeno, Assembly-CSharp
         m_MethodName: StopParticles
         m_Mode: 1
         m_Arguments:
@@ -76684,7 +76684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1885768547}
-  - component: {fileID: 1885768546}
+  - component: {fileID: 1885768548}
   m_Layer: 0
   m_Name: ParticleController_hidrogeno
   m_TagString: Untagged
@@ -76692,20 +76692,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1885768546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885768545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f2488f5c8462194586bacbc30178463, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetParticleSystem: {fileID: 1615786109}
-  reportButton: {fileID: 2144245144}
 --- !u!4 &1885768547
 Transform:
   m_ObjectHideFlags: 0
@@ -76721,6 +76707,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 896614244}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1885768548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885768545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8193685fbd46494a93b573d2a401675, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetParticleSystem: {fileID: 1615786109}
+  reportButton: {fileID: 2144245144}
 --- !u!1 &1886366652
 GameObject:
   m_ObjectHideFlags: 0
@@ -76762,7 +76762,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1886366652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f2488f5c8462194586bacbc30178463, type: 3}
+  m_Script: {fileID: 11500000, guid: 2174be4f65ea38345afddabc25618fc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targetParticleSystem: {fileID: 2039498152}
